@@ -1,0 +1,17 @@
+.navTransparent{
+
+    position:absolute;
+    
+    z-index:10;
+    
+    width:100%;
+    
+    }
+    
+    .carouselNav{
+    
+    position: absolute;
+    
+    top: 0;
+    
+    }
