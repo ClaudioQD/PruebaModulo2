@@ -24,3 +24,9 @@ $("#titulo3").click(function () {
 $("#titulo4").click(function () {
   $("#parrafo4").toggle("slow");
 })
+
+
+$(window).scroll(function(){
+  let nav = $("html").scrollTop();
+  nav > 200 ? $("nav").css("background-color", "black") : $("nav").css("background-color", "transparent");
+  })
