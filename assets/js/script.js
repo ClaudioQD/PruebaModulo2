@@ -28,5 +28,5 @@ $("#titulo4").click(function () {
 
 $(window).scroll(function(){
   let nav = $("html").scrollTop();
-  nav > 200 ? $("nav").css("background-color", "black") : $("nav").css("background-color", "transparent");
+  nav > 200 ? $("nav").css("background-color", "rgb(0, 217, 255)") : $("nav").css("background-color", "transparent");
   })
